@@ -1,0 +1,10 @@
+import tkinter as tk
+window = tk.Tk()
+window.geometry('600x400')
+entry = tk.Entry(window)
+entry.pack()
+button = tk.Button(window,text='确认')
+button.pack()
+label = tk.Label(window,text='This is a test!!')
+label.pack()
+window.mainloop()
